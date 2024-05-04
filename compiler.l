@@ -8,7 +8,6 @@
     #define Return(tokenType) yycolumn += yyleng; return tokenType
 
     extern YYSTYPE yylval;
-    extern int yyleng;
     
     int yycolumn;
 %}
